@@ -77,8 +77,8 @@ Once optimized parameters are found for the hough and gaussion functions, it wor
 
 ## 3. Suggest possible improvements to your pipeline
 
-A clear improvment would be a "pixel" independent code. I used the absolute values of pixelTo create the area of interest and for the x and y calculation of the solid line. To have realtive solution depending on image shape would be a better solution
-I guess this is also teh reason, the callenge video does not work with my solution.
+A clear improvment would be a "pixel" independent code. I used the absolute values of pixel to create the area of interest and for the x and y calculation of the solid line. To have realtive solution depending on image shape would be a better solution
+I guess this is also the reason the callenge video does not work with my solution.
 
 
 
