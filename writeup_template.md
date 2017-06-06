@@ -6,7 +6,7 @@
 My pipeline consisted of 5 steps:
 
 ### Step1: Convert the image to greyscale
-
+ CarND-LaneLines-P1/test_images/solidWhiteCurve.jpg 
 
 
 
