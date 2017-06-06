@@ -37,17 +37,17 @@ Just drawing all lines from Hough Transformation over the orignal image
 ![alt text][image6]
 
 ### Step6: Separate lines with positive and negative slopes
-For the goal to get 2 solid lines it was necessary to seperate the lines form Hough by ther slope
+For the goal to get 2 solid lines it was necessary to seperate the lines form Hough by ther slope.
 Therefor the helper functions grad_pos_calc(lines) and grad_neg_calc(lines) have been created.
 
 Output: List with the x and y values for the pos and neg slopes.
 
 ### Step6: Restrict the min and max possible gradients/slopes
-This helper function restrict_grad(grad, grad_max_thd, grad_min_thd) collected all x and y values for lines with a slope within the boundaries grad_max_thd and grad_min_thd
+This helper function restrict_grad(grad, grad_max_thd, grad_min_thd) collected all x and y values for lines with a slope within the boundaries grad_max_thd and grad_min_thd.
 Output: List with the x and y values for the restricted pos and neg slopes.
 
 ### Step7: Collecting all x1/x2 and y1/y2 for pos and neg restricted gradients/slopes
-Just put all teh x1 and x2 values in 1 column and all the y1 and y2 values in another column with helper function all_val_one_lst(data). That is necessary for further processing
+Just put all teh x1 and x2 values in 1 column and all the y1 and y2 values in another column with helper function all_val_one_lst(data). That is necessary for further processing.
 Output: List with all x and y values in 2 column 
 
 ### Step8:Run the fittin line process
