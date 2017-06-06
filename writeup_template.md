@@ -30,11 +30,11 @@ My pipeline consisted of 10 steps:
 ![alt text][image5]
 
 ### Step4: Run Hough Transformation
-[image6]: ./test_images/houghsolidWhiteCurve.jpg 
-![alt text][image6]
 
 ### Step5: Draw the Hough lines on the image
 Just drawing all lines from Hough Transformation over the orignal image
+[image6]: ./test_images/houghsolidWhiteCurve.jpg 
+![alt text][image6]
 
 ### Step6: Separate lines with positive and negative slopes
 For the goal to get 2 solid lines it was necessary to seperate the lines form Hough by ther slope
