@@ -50,7 +50,7 @@ Output: List with the x and y values for the restricted pos and neg slopes.
 Just put all teh x1 and x2 values in 1 column and all the y1 and y2 values in another column with helper function all_val_one_lst(data). That is necessary for further processing.
 Output: List with all x and y values in 2 column 
 
-### Step8:Run the fittin line process
+### Step8: Run the fittin line process
 This part of the pipeline creates the data for the solid lines depending on the results out of Hough Transformation and further slope/gradient speration and restriction.
 The helper function def fitting_line(x, y) computes with giben x and y values and the np.linalg.lstsq method a fitted line.
 The function returns a slope and and a axis intercept
